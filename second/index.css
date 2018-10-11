@@ -1,7 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 body {
   margin: 0;
+  padding: 0;
+  border: 0;
   width: 100%;
   height: 100vh;
+  background-size: cover;
+  box-sizing: border-box;
+
 }
 
 .header {
@@ -31,22 +42,40 @@ body {
 .circle {
   height: 150px;
   width: 150px;
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 50px;
   background-color: lightblue;
   display: inline-block;
+  border-radius: 50%;
 }
 
 .main {
-  background-color: #efefef;
-  margin: 0 auto;
-  width: 75%;
-  height: 70vh;
+  width: 100%;
+  border: 3px dotted black;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.box {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+  background-color: yellow;
+  box-shadow: 0 25px 40px  black;
 }
 
 .footer {
   margin: 0 auto;
-  background-color: rgb(66, 63, 63);
-  width: 75%;
+  height: 100%;
+  width: 50%;
+  border: 1px solid rgb(168, 161, 161);
   height: 10vh;
   bottom: 0;
+  box-shadow: 3px 3px 5px gray;
+
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 20px;
 }

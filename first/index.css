@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(235, 235, 235);
+}
+
+.content-left {
+    width: 34%;
+    height: 500px;
+    background-color: rgb(92, 91, 91);
+    float: left;
+}
+
+.content-mid {
+    width: 66%;
+    height: 500px;
+    background-color: rgb(204, 200, 200);
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(46, 44, 44);
+}

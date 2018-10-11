@@ -11,6 +11,13 @@ body {
   background-color: #444444;
 }
 
+.content-left {
+  background-color: #EFEFEF;
+  margin: 0 auto;
+  width: 75%;
+  height: 70vh;
+}
+
 .main-content {
   background-color: #EFEFEF;
   margin: 0 auto;
@@ -19,8 +26,10 @@ body {
 }
 
 .footer { 
-  background-color: #222222;
   margin: 0 auto;
+  background-color: rgb(66, 63, 63);
+
   width: 75%;
   height: 10vh;
+  bottom: 0;
 }

@@ -15,11 +15,14 @@ body {
 
 }
 
+.bigdiv {
+  padding: 20px;
+}
+
 .header {
   width: 100%;
   border: 5px solid black;
   padding: 10px;
-  margin: 10px;
   box-sizing: border-box;
 }
 
@@ -52,22 +55,21 @@ body {
   width: 100%;
   border: 3px dotted black;
   padding: 10px;
-  margin: 10px;
+  margin-top: 20px;
   box-sizing: border-box;
 }
 .box {
   width: 100%;
   height: 200px;
-  margin: 10px;
-  background-color: yellow;
-  box-shadow: 0 25px 40px  black;
+  background-color: lemonchiffon;
+  box-shadow: 0 25px 30px  black;
 }
 
 .footer {
   margin: 0 auto;
-  height: 100%;
+  height: 00%;
   width: 50%;
-  border: 1px solid rgb(168, 161, 161);
+  border: 1px solid #ccc;
   height: 10vh;
   bottom: 0;
   box-shadow: 3px 3px 5px gray;
@@ -76,6 +78,11 @@ body {
 
 h1 {
   font-size: 40px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 20px;
+  color: navy;
+  letter-spacing: 6px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+
 }
